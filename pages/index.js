@@ -29,16 +29,24 @@ export default function Home({ allPostsData }) {
                     >
                         [click try try]
                     </p>
-                    <p>
-                        (This is a sample website - you’ll be building a site like this on{" "}
-                        <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-                    </p>
                 </section>
+                <hr />
                 <h2>
                     <Link href="/posts/first-post">
                         <a>First Post</a>
                     </Link>
                 </h2>
+                <h2>
+                    <Link href="/posts/ssg-ssr">
+                        <a>ssg-ssr</a>
+                    </Link>
+                </h2>
+                <h2>
+                    <Link href="/posts/pre-rendering">
+                        <a>pre-rendering</a>
+                    </Link>
+                </h2>
+                <hr />
                 <Alert type="error">123</Alert>
                 <hr />
                 <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
