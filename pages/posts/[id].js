@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Head from "next/head";
 import Date from "../../components/date";
 import Layout from "../../components/layout";

@@ -7,7 +7,7 @@ export default function Alert({ children, type }) {
     };
   return (
       <>
-              <div className={colorObj[type]}>{children}</div>
+              <div className={colorObj[type]} style={{textAlign:"center",border:'1px solid black'}}>{children}</div>
               <div
                   className="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md"
                   role="alert"
