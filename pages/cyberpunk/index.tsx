@@ -1,4 +1,4 @@
-import { withStyles, ThemeProvider, createTheme, Arwes, Col, Row } from "arwes";
+import { withStyles, ThemeProvider, createTheme, Arwes, Col, Row, Image } from "arwes";
 import Wrap from "./components/Wrap";
 import globalStyle from "./index.module.scss";
 
@@ -42,6 +42,12 @@ export default function Cyberpunk() {
                     <Wrap abc="123" className={globalStyle["flex-column-center"]}>
                         <Row>
                             <MyHeader>Hello Cyberpunk</MyHeader>
+                        </Row>
+                        <Row>
+                            <Image animate resources="/cyberpunk/img/James.jpeg">
+                                <p>The King of NBA</p>
+                                <p>Lebron James</p>
+                            </Image>
                         </Row>
                         <Row nested noMargin>
                             <Col s={12} m={6}>
